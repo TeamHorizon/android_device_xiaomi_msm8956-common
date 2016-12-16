@@ -107,6 +107,7 @@ PRODUCT_PACKAGES += \
 
 # Camera
 PRODUCT_PACKAGES += \
+    Camera2 \
     Snap
 
 # Connectivity Engine support (CNE)
