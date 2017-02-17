@@ -20,6 +20,9 @@ on boot
     # Enable sched boost
     write /proc/sys/kernel/sched_boost 1
 
+    # Enable DT2W by default
+    write /sys/android_touch/doubletap2wake 1
+
 on enable-low-power
     # HMP scheduler (big.Little cluster related) settings
     write /proc/sys/kernel/sched_boost 0
