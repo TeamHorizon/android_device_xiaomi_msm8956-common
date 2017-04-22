@@ -273,3 +273,7 @@ PRODUCT_COPY_FILES += \
 # miracast props
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.debug.wfd.enable=1
+
+# for off charging mode
+PRODUCT_PACKAGES += \
+    healthd_xiaomi
