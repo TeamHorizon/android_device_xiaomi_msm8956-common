@@ -1,0 +1,12 @@
+[
+  {
+    "repository": "TeamHorizon/android_kernel_xiaomi_kenzo",
+    "target_path": "kernel/xiaomi/msm8956",
+    "branch": "n"
+  },
+  {
+    "repository": "TeamHorizon/proprietary_vendor_xiaomi",
+    "target_path": "vendor/xiaomi",
+    "branch": "n"
+  }
+]
